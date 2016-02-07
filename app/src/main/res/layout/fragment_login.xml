@@ -12,7 +12,7 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/app_icon"
+            android:id="@+id/app_icon_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="@dimen/extra_large_margin"
@@ -20,18 +20,18 @@
             android:layout_gravity="center_horizontal"/>
 
         <EditText
-            android:id="@+id/email_text"
+            android:id="@+id/email_login_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
-            android:hint="@string/email_hint" />
+            android:hint="@string/email_login_hint" />
 
         <EditText
-            android:id="@+id/password_text"
+            android:id="@+id/password_login_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:hint="@string/password_hint"/>
+            android:hint="@string/password_login_hint"/>
 
     </LinearLayout>
 
@@ -43,11 +43,11 @@
         android:paddingBottom="@dimen/extra_large_margin">
 
         <TextView
-            android:id="@+id/sign_in_button"
+            android:id="@+id/sign_in_login_button"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
-            android:text="@string/sign_in_button_text"
+            android:text="@string/sign_in_button_login_text"
             style="@style/RobotoMedium"
             android:background="@drawable/login_button"
             android:layout_gravity="center_horizontal"
@@ -57,11 +57,11 @@
             android:layout_marginBottom="@dimen/larger_margin"/>
 
         <TextView
-            android:id="@+id/sign_up_button"
+            android:id="@+id/sign_up_login_button"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
-            android:text="@string/sign_up_button_text"
+            android:text="@string/sign_up_button_login_text"
             style="@style/RobotoMedium"
             android:background="@drawable/login_button"
             android:layout_gravity="center_horizontal"
